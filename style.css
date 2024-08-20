@@ -25,7 +25,7 @@
     align-items: center;
     justify-content: space-between;
     height: 30px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid gray;
     margin: 5px 20px 5px 20px;
 }
 li a{
@@ -44,4 +44,68 @@ ul span{
 }
 /* end header section */
 
-/*
+/* strat nav section */
+.logo {
+    height: 50px;
+    width: 120px;
+    background-image: url("eBay_logo.png");
+    background-size: cover;
+}
+.nav-section{
+    height: 50px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.searchBar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+}
+.searchBar button{
+    width: 170px;
+    border: none;
+   border-radius: 25px;
+   background-color: #3665f3;
+   color: white;
+   font-size: 16px;
+   font-weight: 600;
+   padding: 13px;
+}
+.searchInput {
+    height: 40px;
+    width: 100%;
+    margin-right: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.searchBar input{
+    height: 40px;
+    width: 80%;
+    border: none;
+    font-size: 16px;
+    
+}
+.searchBar select{
+    height: 40px;
+    width: 20%;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: 1px solid gray;
+}
+.searchBar i{
+    width:50px;
+    text-align: right;
+    padding-right: 5px;
+}
+/* end nav section */
