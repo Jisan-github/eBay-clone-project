@@ -139,3 +139,74 @@ ul span{
     text-decoration: underline;
     color:blue;
 }
+/* end header panel 2*/
+
+/* strat hero section */
+.hero-section {
+    height: 330px;
+    width: 97%;
+    margin: 0px 20px 0px 20px;
+    background-color: #4fe162;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-hero {
+    height: 330px;
+    width: 330px;
+}
+.image-section-1 {
+    height: 330px;
+    width: 350px;
+    background-image: url("s-l400.webp");
+    background-size: contain;
+}
+.image-section-2 {
+    height: 330px;
+    width: 350px;
+    background-image: url("s-l400\ \(1\).webp");
+    background-size: contain;
+}
+.image-section-3 {
+    height: 330px;
+    width: 350px;
+    background-image: url("s-l400\ \(2\).webp");
+    background-size: contain;
+}
+.text-section .span1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1b561a;
+    margin-bottom: 30px;
+}
+.text-section .span2 {
+    font-size: 17px;
+    color: #1b561a;
+
+}
+.text-section {
+    height: 330px;
+    width: 330px;
+    padding-top: 20px;
+    line-height: 25px;
+    display: block;
+}
+.text-section button{
+    height: 40px;
+    border-color: #1b561a;
+    color: #1b561a;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 200px;
+    margin-top: 40px;
+    background-color:#4fe162;
+}
+
+.text-section button:hover {
+    color: #4fe162;
+    background-color: #1b561a;
+}
+/* end hero section */
