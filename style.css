@@ -363,3 +363,41 @@ ul span{
 
 }
 /* end section 2*/
+
+/* strat footer section */
+footer {
+    height: 450px;
+    width: 96%;
+    background-color: gainsboro;
+    margin: 50px 20px 0px 20px;
+    padding: 30px 10px 10px 10px;
+    border-top: 2px solid black;
+}
+
+.f-sec-a {
+    height: 400px;
+    width: 97%;
+    margin: 0px 20px 0px 20px;/*
+    background-color: #555555;*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+ul li{
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 12px;
+}
+.f-sec-b {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.f-b {
+    font-weight: 600;
+}
+li a:hover{
+    text-decoration: underline;
+}
+/* end footer section */
