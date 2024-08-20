@@ -109,3 +109,33 @@ ul span{
     padding-right: 5px;
 }
 /* end nav section */
+
+/* strat header panel 2*/
+.header-panel2 {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+}
+.hp2-ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.hp2-ul li{
+    display: inline;
+    text-align: center;
+}
+.hp2-ul li a{
+    text-decoration: none;
+    color: #555555;
+    margin-left:20px ;
+    font-size: 12px;
+   
+}
+
+.hp2-ul li a:hover {
+    text-decoration: underline;
+    color:blue;
+}
