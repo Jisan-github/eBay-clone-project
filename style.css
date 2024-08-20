@@ -304,3 +304,62 @@ ul span{
 .sec-h:hover {
     text-decoration: underline;
 }
+/* end section 1 */
+
+/* strat section 2*/
+.section-2 {
+    height: 330px;
+    width: 97%;
+    margin: 0px 20px 0px 20px;
+    background-color: gainsboro;
+    border-radius: 20px;
+    display: flex;
+}
+.image-div {
+    height: 330px;
+    width: 100%;
+    background-image: url("section-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+.text-div {
+    height:330px ;
+    width: 810px;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 40px;
+}
+
+.text-div button{
+    height: 40px;
+    border-color: #191919;
+    color: #1b561a;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 200px;
+    margin-top: 40px;
+    background-color:gainsboro;
+}
+
+.text-div button:hover {
+    color: gainsboro;
+    background-color: #191919;}
+
+.text-div .spana {
+    color: #191919;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.text-div .spanb {
+    font-size: 17px;
+    color: #191919;
+
+}
+/* end section 2*/
