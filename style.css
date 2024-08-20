@@ -210,3 +210,97 @@ ul span{
     background-color: #1b561a;
 }
 /* end hero section */
+.section-1 {
+    height: 300px;
+    margin: 30px 20px 0px 20px;
+    padding: 20px;
+}
+.sec-A {
+     height: 32px;
+     width: 100%;
+    
+} 
+.sec-A h2 {
+    font-size: 24px;
+    color:#191919;
+}
+
+.sec-B {
+    width: 100%;
+    height: 275px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.sec-b, .sec-c,.sec-e, .sec-f, .sec-g, .sec-h {
+    text-align: center;
+    width: 160px;
+}
+.luxury {
+    width: 160px;
+    height: 160px;
+    background-image:url("luxury.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.sneakers {
+    width: 160px;
+    height: 160px;
+    background-image:url("sneakers.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.refurbished {
+    width: 160px;
+    height: 160px;
+    background-image:url("refurbished.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.tradingCards {
+    width: 160px;
+    height: 160px;
+    background-image:url("trading\ cards.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.preLoveLuxury {
+    width: 160px;
+    height: 160px;
+    background-image:url("pre-loved\ luxury.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.toys {
+    width: 160px;
+    height: 160px;
+    background-image:url("toys.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.sec-b:hover {
+    text-decoration: underline;
+}
+.sec-c:hover {
+    text-decoration: underline;
+}
+.sec-e:hover {
+    text-decoration: underline;
+}
+.sec-f:hover {
+    text-decoration: underline;
+}
+.sec-g:hover {
+    text-decoration: underline;
+}
+.sec-h:hover {
+    text-decoration: underline;
+}
